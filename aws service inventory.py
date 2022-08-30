@@ -14,6 +14,7 @@ aws_service_list.append('sns')
 aws_service_list.append('sqs')
 aws_service_list.insert(0,'iam')
 aws_service_list.insert(4, 'lambda')
+aws_service_list.insert(6, 'cloudformation')
 
 #print the list and the length of the list 
 print(len(aws_service_list))
